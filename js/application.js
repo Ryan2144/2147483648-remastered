@@ -35,11 +35,23 @@ window.requestAnimationFrame(function () {
   case "alwaysTwo":
     alwaysTwo();
     break;
+  case "threeTile":
+    threeTile();
+    break;
+  case "fourTile":
+    fourTile();
+    break;
+  case "bigInteger":
+    bigInteger();
+    break;
   case "fibonacci":
     fibonacci();
     break;
   case "threes":
     threes();
+    break;
+  case "baseThree":
+    baseThree();
     break;
   case "mergeAny":
     mergeAny();
@@ -55,6 +67,9 @@ window.requestAnimationFrame(function () {
     break;
   case "gravity":
     gravity();
+    break;
+  case "troll":
+    troll();
     break;
   default:
     normal();
@@ -297,7 +312,7 @@ function powerTwo() {
       index = 1;
     } else {
       index <<= 1;
-      if (index > 4611686018427388000) {
+      if (index > 2147483648) {
         index = 0;
       }
     }
