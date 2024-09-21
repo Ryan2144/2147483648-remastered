@@ -4,7 +4,7 @@ function getSize() {
   if (r != null) {
     return parseInt(unescape(decodeURI(r[2])));
   }
-  return 16; 
+  return 8; 
 }
 
 function getMode() { 
