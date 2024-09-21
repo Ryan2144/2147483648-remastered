@@ -257,11 +257,11 @@ function classic() {
 }
 
 function threeTile() {
-  changeRule(function() { return Math.random() < 0.8 ? 2 : return Math.random() < 0.9 ? 4 : 8; }, normalMerge, normalWin);
+  changeRule(function() { return Math.random() < 0.8 ? 2 : Math.random() < 0.9 ? 4 : 8; }, normalMerge, normalWin);
 }
 
 function fourTile() {
-  changeRule(function() { return Math.random() < 0.75 ? 2 : return Math.random() < 0.75 ? 4 : return Math.random() < 0.75 ? 8 : 16; }, normalMerge, normalWin);
+  changeRule(function() { return Math.random() < 0.75 ? 2 : Math.random() < 0.75 ? 4 : Math.random() < 0.75 ? 8 : 16; }, normalMerge, normalWin);
 }
 
 function base3() {
