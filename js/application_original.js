@@ -228,7 +228,6 @@ function changeRule(add, merge, win) {
   };
   game.inputManager.events["move"] = [];
   game.inputManager.on("move", game.move.bind(game));
-  game.restart();
 }
 
 function normalAdd() {
@@ -365,7 +364,6 @@ function gravity() {
   };
   game.inputManager.events["move"] = [];
   game.inputManager.on("move", game.move.bind(game));
-  game.restart();
 }
 
 function troll() {
@@ -379,7 +377,6 @@ function troll() {
   };
   game.inputManager.events["move"] = [];
   game.inputManager.on("move", game.move.bind(game));
-  game.restart();
 }
 
 function timeRush(sec) {
