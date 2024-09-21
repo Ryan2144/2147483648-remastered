@@ -90,7 +90,7 @@ function doMovementPattern(moveType) {
   if (typeof(mover) != 'undefined') {
     clearInterval(mover);
   }
-  mover = setInterval(moveType, 50);
+  mover = setInterval(moveType, 1);
 }
 
 function stopMovement() {
@@ -114,10 +114,10 @@ function corner() {
   last = item.innerHTML;
   if (0 === dir) {
     game.move(0);
-    setTimeout(function() {game.move(3)}, 20);
+    setTimeout(function() {game.move(3)}, 1);
   } else {
     game.move(0);
-    setTimeout(function() {game.move(1)}, 20);
+    setTimeout(function() {game.move(1)}, 1);
   }
 }
 
@@ -135,10 +135,10 @@ function swing() {
   last = item.innerHTML;
   if (0 === dir) {
     game.move(0);
-    setTimeout(function() {game.move(2)}, 20);
+    setTimeout(function() {game.move(2)}, 1);
   } else {
     game.move(1);
-    setTimeout(function() {game.move(3)}, 20);
+    setTimeout(function() {game.move(3)}, 1);
   }
 }
 
