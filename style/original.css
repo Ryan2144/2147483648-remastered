@@ -514,10 +514,36 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
+/* Special Tiles */
+  .tile.tile-super .tile-inner {
+    color: #ffffff;
+    background: #000000;
+    box-shadow: 0 0 30px 10px #f3d774, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 7px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-super .tile-inner {
+        font-size: 1px; } }
+  .tile.tile--super .tile-inner {
+    color: #f9f6f2;
+    background: #1f2223;
+    box-shadow: 0 0 30px 10px #000000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 7px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile--super .tile-inner {
+        font-size: 1px; } }
+  .tile.tile-Infinity .tile-inner {
+    color: #000000;
+    background: #ffffff;
+    box-shadow: 0 0 30px 10px #000000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-Infinity .tile-inner {
+        font-size: 10px; } }
   .tile.tile-0 .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+/* Powers of 2 */
   .tile.tile-1 .tile-inner {
     background: #eeeeee;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -1028,6 +1054,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-590295810358705700000 .tile-inner {
         font-size: 1px; } }
+/* Powers of 3 */
   .tile.tile-3 .tile-inner {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -1270,6 +1297,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-5559060566555523 .tile-inner {
         font-size: 4px; } }
+/* Threes */
   .tile.tile-6 .tile-inner {
     color: #f9f6f2;
     background: #f0c189; }
@@ -1653,6 +1681,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-6755399441055744 .tile-inner {
         font-size: 5px; } }
+/* Fibonacci */
   .tile.tile-5 .tile-inner {
     color: #f9f6f2;
     background: #f0c9a0; }
@@ -2210,6 +2239,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-8944394323791464 .tile-inner {
         font-size: 5px; } }
+/* Lucas */
   .tile.tile-7 .tile-inner {
     color: #f9f6f2;
     background: #f3b986; }
@@ -2764,6 +2794,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-7639424778862807 .tile-inner {
         font-size: 4px; } }
+/* Negative */
   .tile.tile--1 .tile-inner {
     color: #f9f9f2;
     background: #000000; }
@@ -3290,22 +3321,6 @@ hr {
     font-size: 7px; }
     @media screen and (max-width: 520px) {
       .tile.tile--590295810358705700000 .tile-inner {
-        font-size: 1px; } }
-  .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3c3a32;
-    box-shadow: 0 0 30px 10px #000000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 7px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
-        font-size: 1px; } }
-  .tile.tile--super .tile-inner {
-    color: #f9f6f2;
-    background: #1f2223;
-    box-shadow: 0 0 30px 10px #000000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 7px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile--super .tile-inner {
         font-size: 1px; } }
 
 @-webkit-keyframes appear {
