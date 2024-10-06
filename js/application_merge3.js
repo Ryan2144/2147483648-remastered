@@ -20,7 +20,6 @@ window.requestAnimationFrame(function () {
   }
   container.innerHTML = html;
   game = new GameManager(size, KeyboardInputManager, HTMLActuator, LocalStorageManager);
-  var mode = getMode();
 });
 
 var last = '';
