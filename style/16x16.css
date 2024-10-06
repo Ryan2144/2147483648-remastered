@@ -4234,7 +4234,7 @@ hr {
 .game-explanation {
   margin-top: 50px; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
   html, body {
     font-size: 15px; }
 
