@@ -89,5 +89,5 @@ function random() {
 }
 
 function changeSize(size) {
-  window.location.href = 'index.html?size=' + size;
+  window.location.href = 'merge3.html?size=' + size;
 }
