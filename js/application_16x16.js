@@ -273,7 +273,7 @@ function fibonacci() {
   var a = 1, b = 1;
   fib.push(a);
   fib.push(b);
-  while (a + b <= 590295810358705651712) {
+  while (a + b <= 999999999999999999999999999999) {
     var c = a + b;
     fib.push(c);
     a = b;
@@ -296,7 +296,7 @@ function lucas() {
   var a = 2, b = 1;
   fib.push(a);
   fib.push(b);
-  while (a + b <= 590295810358705651712) {
+  while (a + b <= 999999999999999999999999999999) {
     var c = a + b;
     fib.push(c);
     a = b;
