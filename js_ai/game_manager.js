@@ -302,7 +302,7 @@ GameManager.prototype.positionsEqual = function (first, second) {
 GameManager.prototype.runAI = function() {
   this.move(this.ai.getBest());
   var timeout = animationDelay; // See application.js for global animationDelay
-  if (this.running && !this.over && !this.won) {
+  if (this.running && !this.over) {
     var self = this;
     setTimeout(function(){ 
       self.runAI(); 
